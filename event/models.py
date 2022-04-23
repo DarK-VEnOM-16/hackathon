@@ -129,7 +129,7 @@ class Sports(models.Model):
     def __str__(self):
         return self.name
 
- class resultss(models.Model):
+class resultss(models.Model):
     name = models.CharField(max_length=50)
     gold = models.CharField(max_length=100)
     silver = models.CharField(max_length=100)
